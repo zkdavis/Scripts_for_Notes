@@ -74,7 +74,7 @@ def null_point():
     x = np.linspace(-3, 3, 100)
     y = np.linspace(-3, 3, 100)
     X, Y = np.meshgrid(x, y, indexing='ij')
-    j_values = np.linspace(-4, 4, 49)
+    j_values = np.linspace(-2, 2, 49)
     active_first = np.argmin(np.abs(j_values))
     j_thresh = 1
     for jz in j_values:
